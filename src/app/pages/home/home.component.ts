@@ -46,11 +46,10 @@ export class HomeComponent {
     }
   }
 
-  // Show toast message
   showToastMessage() {
     this.showToast = true;
     setTimeout(() => {
       this.showToast = false;
-    }, 2000); // Hide the toast after 2 seconds
+    }, 2000);
   }
 }
